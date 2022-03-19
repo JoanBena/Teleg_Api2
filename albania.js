@@ -6,6 +6,15 @@ const cron = require("node-cron");
 const client = new Client(new TDLib("/root/td/tdlib/lib/libtdjson.so"), {
   apiId: 12125368, // Your api_id
   apiHash: "58ab878bce3f94becf4c16b58cac7426",
+  tdlibParameters: {
+        use_message_database: false,
+        use_secret_chats: false,
+        system_language_code: 'en',
+        application_version: '1.0',
+        device_model: 'Unknown device',
+        system_version: 'Unknown',
+        enable_storage_optimizer: true
+}
 });
 // +355676436522
 
