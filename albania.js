@@ -86,7 +86,7 @@ async function sendMessageToGroup(chatId, message) {
         "@type": "inputMessagePhoto",
         photo: {
           "@type": "inputFileLocal",
-          path: "telegram.jpg",
+          path: "icelanddd.jpg",
         },
         caption: {
           "@type": "formattedText",
