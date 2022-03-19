@@ -6,15 +6,7 @@ const cron = require("node-cron");
 const client = new Client(new TDLib("/root/td/tdlib/lib/libtdjson.so"), {
   apiId: 12125368, // Your api_id
   apiHash: "58ab878bce3f94becf4c16b58cac7426",
-  tdlibParameters: {
-        use_message_database: false,
-        use_secret_chats: false,
-        system_language_code: 'en',
-        application_version: '1.0',
-        device_model: 'Unknown device',
-        system_version: 'Unknown',
-        enable_storage_optimizer: true
-}
+  phone_number: +355676436522,
 });
 // +355676436522
 
@@ -22,26 +14,8 @@ const client = new Client(new TDLib("/root/td/tdlib/lib/libtdjson.so"), {
 client.on("error", console.error);
 
 const chatIds = [
-  -381534820, -1001384995373, -1001469298633,
-  -1001478361643, -1001386173203, -1001775187832,
-  -1001331855971, -1001480392581, -1001462764689,
-  -1001158622413, -1001218554026,-1001112793580, 
-  -1001303959083, -1001764832515,-1001494134445, 
-  -1001214829860, -1001733642935, -1001220034761,
-  -1001665570303,     -742536170, -1001601903601
+   -632378551
 ];
-
-// 1001321016794, -1001234757139, -1001494134445, -1001764832515,
-//   -1001324709443, -1001201380770, -1001291747525, -1001433247452,
-//   -1001282795991, -1001240297153, -1001331855971, -1001469298633,
-//   -1001303959083, -1001112793580, -1001449041382, -1001384995373,
-//   -1001601903601, -1001491830790, -1001354447667, -1001227952965,
-//   -1001386173203, -1001417098496, -1001775187832, -1001573469414,
-//   -1001197544098, -1001158622413, -1001306941134, -1001393277530,
-//   -783259581, -742536170,
-
-
-
 
 const flag ="🇮🇸🇮🇸 BLUE CHEESE 💙💙\n🇮🇸🇮🇸 BLUE CHEESE 💙💙\n🇮🇸🇮🇸 BLUE CHEESE 💙💙\n\n";
 const motto = "🪙🚀THE BEST QUALITY🪙🚀 \n⚖️GRAM IS REAL GRAM⚖️\n\n";
@@ -74,20 +48,6 @@ async function main() {
 
 async function sendMessageToGroup(chatId, message) {
   try {
-    /* 
-    const message = await client.invoke({
-      _: "sendMessage",
-      chat_id: chatId,
-      input_message_content: {
-        _: "inputMessageText",
-        text: {
-          _: "formattedText",
-          text: "Hi nga boti",
-        },
-      },
-    }); 
-    */
-
     await client.invoke({
       "@type": "sendMessage",
       chat_id: chatId,
@@ -95,7 +55,7 @@ async function sendMessageToGroup(chatId, message) {
         "@type": "inputMessagePhoto",
         photo: {
           "@type": "inputFileLocal",
-          path: "icelanddd.jpg",
+          path: "telegram.jpg",
         },
         caption: {
           "@type": "formattedText",
