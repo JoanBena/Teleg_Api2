@@ -60,7 +60,7 @@ async function sendMessageToGroupICE2(chat, message) {
               "@type": "inputMessagePhoto",
               photo: {
                 "@type": "inputFileLocal",
-                path: "poster_telegram2.jpg",
+                path: "poster_telegram3.jpg",
               },
               caption: {
                 "@type": "formattedText",
