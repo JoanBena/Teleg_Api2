@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "node-cron": "^3.0.0",
+    "shelljs": "^0.8.4",
+    "tdl": "^7.0.0",
+    "tdl-tdlib-addon": "^1.0.1",
+    "tdlnode": "^1.2.0",
+    "tglib": "^3.0.5"
+  },
+  "devDependencies": {
+    "tdlib-types": "^0.1001007.1"
+  }
+}
