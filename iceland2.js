@@ -23,7 +23,7 @@ const chatIds = [
   -1001478361643, 1598053102
 ]
 
-const flag ="🌋🌋 G-13 🌋🌋 SATIVA\n⚡️⚡️NORTHERN LIGHT 🌌 INDICA\n\n";
+const flag ="🌋🌋 G-13 🌋🌋 SATIVA\n⚡️⚡️NORTHERN LIGHT 🌌\nINDICA\n\n";
 const motto = "🪙🚀THE BEST QUALITY🪙🚀 \n⚖️GRAM IS REAL GRAM⚖️\n\n";
 const call ="Call me here📲 7686918☎️\nCall me here📲 7686918☎️\nCall me here📲 7686918☎️\nText 📲 7686918📲\n\n";
 const driving = "🚗🚗IM DRIVING +2 🚗🚗\nDRIVING TIME 🕔05:00-00:00🕛\n\n\n";
